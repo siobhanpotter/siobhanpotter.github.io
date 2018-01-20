@@ -1,46 +1,27 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Link } from 'react-router-dom';
-import { Code } from '../styles/style';
-import s from '../styles/home.style';
 
-export default function Home() {
-  const repoReadmeLink = text => (
-    <Interactive
-      as="a"
-      {...s.link}
-      href="https://github.com/rafrex/spa-github-pages#readme"
-    >{text}</Interactive>
-  );
+import '../scss/style.scss';
+import logoOutline from '../assets/OUTLINE.png';
+import logoGrey from '../assets/GREY.png';
+
+const Home = () => {
 
   return (
-    <div>
-      <p style={s.p}>
-        This is an example single page app built
-        with React and React&nbsp;Router using {' '}
-        <Code>BrowserRouter</Code>. Navigate with the links below and
-        refresh the page or copy/paste the url to test out the redirect
-        functionality deployed to overcome GitHub&nbsp;Pages incompatibility
-        with single page apps (like this one).
-      </p>
-      <p style={s.p}>
-        Please see the {repoReadmeLink('repo readme')} for instructions on how to
-        use this boilerplate to deploy your own single page app using GitHub Pages.
-      </p>
-      <div style={s.pageLinkContainer}>
-        <Interactive
-          as={Link}
-          {...s.link}
-          to="/example"
-        >Example page</Interactive>
-      </div>
-      <div style={s.pageLinkContainer}>
-        <Interactive
-          as={Link}
-          {...s.link}
-          to="/example/two-deep?field1=foo&field2=bar#boom!"
-        >Example two deep with query and hash</Interactive>
-      </div>
+    <div id="Home">
+      <section className="header">
+        <div className="col-12  title">
+          {/* <img className="img-responsive logo-outline" src={logoOutline}></img> */}
+          <div className="title-name">
+            <h4>SIOBHAN POTTER</h4>
+            <h6>Web Developer | Creative | Music Lover</h6>
+          </div>
+        </div>
+        <div className="intro">
+          <p className="element"><span>Hi, I'm Siobhan,</span><br/> I'm a web developer   based in London. Check out my work, find out more about me & get in   touch.</p>
+        </div>
+      </section>
     </div>
   );
-}
+};
+
+export default Home;
