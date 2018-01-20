@@ -30,14 +30,16 @@ class App extends React.Component {
     return (
       <div>
         { this.state &&
-          <main className="container">
+          <main id="main">
             <Home
               switchVisibleComponent={this.switchVisibleComponent}
               handleHover={this.handleHover}
             />
-            <About />
-            <Skills />
-            <Projects />
+            <div className="container">
+              <About />
+              <Skills />
+              <Projects />
+            </div>
             <Contact />
           </main>
         }
