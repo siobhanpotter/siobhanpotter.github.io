@@ -37,8 +37,8 @@ class App extends React.Component {
             />
             <div className="container">
               <About />
-              <Skills />
               <Projects />
+              <Skills />
             </div>
             <Contact />
           </main>
