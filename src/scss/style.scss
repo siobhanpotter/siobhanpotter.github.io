@@ -160,6 +160,47 @@ h1 {
   }
 }
 
+.container1 {
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  // text-align: center;
+}
+.container1:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: black;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  // -ms-transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+  padding: 100px 40px;
+  p{
+    font-size: 15px;
+  }
+}
+
+
+
 // .grow {
 //   height: 49px;
 //   width: 100%;
@@ -259,59 +300,6 @@ h1 {
   100% {
     color: white;
   }
-}
-
-
-// html, body {
-//   height: 100%;
-// }
-
-// .box-container {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   background: '../assets/music-box.png';
-//   font-family: 'Lato', sans-serif;
-// }
-
-
-
-.image-a {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
-  -webkit-mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: left top, left bottom;
-  // overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .7s ease;
-}
-
-.container:hover .overlay {
-  height: 100%;
-}
-
-.text {
-  color: grey;
-  font-size: 15px;
-  font-weight: thin;
-  position: absolute;
-  top: 80%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: left;
 }
 
 #main {

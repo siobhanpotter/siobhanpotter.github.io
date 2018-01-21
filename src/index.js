@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import scollToComponent from 'react-scroll-to-component';
+// import scollToComponent from 'react-scroll-to-component';
 
 import Home from './components/Home';
 import Projects from './components/Projects';

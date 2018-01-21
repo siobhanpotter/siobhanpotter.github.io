@@ -1,8 +1,8 @@
 import React from 'react';
 
 import '../scss/style.scss';
-import logoOutline from '../assets/OUTLINE.png';
-import logoGrey from '../assets/GREY.png';
+// import logoOutline from '../assets/OUTLINE.png';
+// import logoGrey from '../assets/GREY.png';
 
 const Home = () => {
 
