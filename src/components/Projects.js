@@ -29,7 +29,7 @@ const Projects = () => {
                 <p className="card-text">An app for musicians to find other musicians or bands to play with in their local area. Bands are also able advertise vacancies. I came up with the idea because of my passion for learning and playing music with others. This is a MERN stack application and makes use of the Google Map and Google Places API.
                 </p>
                 <button type="button" className="btn btn-outline-info">Launch App</button>
-                <button type="button" className="btn btn-outline-info">View Code</button>
+                <a href="https://github.com/siobhanpotter/WDI_PROJECT_4"><button type="button" className="btn btn-outline-info">View Code</button></a>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Gig.ly</h5>
                 <p className="card-text">A social music event app designed for people to chat within groups attending upcoming gigs. This was a team project that involved using Github collaboratively to produce a RESTful MEAN stack app. It combines data from the Ticketmaster and Spotify API to pull in event info and artists top tracks.</p>
-                <button type="button" className="btn btn-outline-info">Launch App</button>
+                <a href="https://gig-event-app-siobhan.herokuapp.com/"><button type="button" className="btn btn-outline-info">Launch App</button></a>
                 <button type="button" className="btn btn-outline-info">View Code</button>
               </div>
             </div>
@@ -76,8 +76,8 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Viewr</h5>
                 <p className="card-text">A platform for the public to add and review exhibitions they had visited. My background in photography led me to come up with the idea for this app. I utilized the  CRUD/RESTful concepts when creating my first full stack app, getting to know how to use MongoDB and make requests to my API. </p>
-                <button type="button" className="btn btn-outline-info">Launch App</button>
-                <button type="button" className="btn btn-outline-info">View Code</button>
+                <a href="https://viewr-exhibitions.herokuapp.com/exhibitions"><button type="button" className="btn btn-outline-info">Launch App</button></a>
+                <a href="https://github.com/siobhanpotter/WDI_PROJECT_2"><button type="button" className="btn btn-outline-info">View Code</button></a>
               </div>
             </div>
 
@@ -94,8 +94,8 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Unjmuble This</h5>
                 <p className="card-text">The idea of the game is to un-jumble words within a specific time frame, the game becomes more challenging as it progresses and the speed increases. I made this game on week three of the immersive course. For this project, I wanted to consolidate my knowledge of Javascript, jQuery and CSS. </p>
-                <button type="button" className="btn btn-outline-info">Launch App</button>
-                <button type="button" className="btn btn-outline-info">View Code</button>
+                <a href="https://unjmuble-this.herokuapp.com/"><button type="button" className="btn btn-outline-info">Launch App</button></a>
+                <a href="https://github.com/siobhanpotter/WDI_PROJECT_1"><button type="button" className="btn btn-outline-info">View Code</button></a>
               </div>
             </div>
 
