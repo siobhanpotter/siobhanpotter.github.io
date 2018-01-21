@@ -21,12 +21,12 @@ const Projects = () => {
                   <h5>Tech Used</h5>
                   {/* <i className="devicon-javascript-plain"></i>
                   <i   className="devicon-react-original-wordmark"></i> */}
-                  <p>React, Express.js, SCSS, Bootstrap, MongoDB with Mongoose models, JSX,</p>
+                  <p>React, Express.js, SCSS, Bootstrap, MongoDB with Mongoose models, JSX.</p>
                 </div>
               </div>
               <div className="card-body">
                 <h5 className="card-title">Music Box</h5>
-                <p className="card-text">An app for musicians to find other musicians or bands to play with in their local area. I came up with the idea because of my passion for learning and playing music with others. This is a MERN stack application and makes use of the Google Map and Google Places API.
+                <p className="card-text">An app for musicians to find other musicians or bands to play with in their local area. Bands are also able advertise vacancies. I came up with the idea because of my passion for learning and playing music with others. This is a MERN stack application and makes use of the Google Map and Google Places API.
                 </p>
                 <button type="button" className="btn btn-outline-info">Launch App</button>
                 <button type="button" className="btn btn-outline-info">View Code</button>
@@ -45,7 +45,7 @@ const Projects = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title">Gig.ly</h5>
-                <p className="card-text">A social music event app designed for people to chat within groups attending upcoming gigs. This was a team project that involved using Github collaboratively to produce a RESTful MEAN stack app. It combines data from the Ticketmaster and Spotify API to pull in event info and the artists top tracks.</p>
+                <p className="card-text">A social music event app designed for people to chat within groups attending upcoming gigs. This was a team project that involved using Github collaboratively to produce a RESTful MEAN stack app. It combines data from the Ticketmaster and Spotify API to pull in event info and artists top tracks.</p>
                 <button type="button" className="btn btn-outline-info">Launch App</button>
                 <button type="button" className="btn btn-outline-info">View Code</button>
               </div>
