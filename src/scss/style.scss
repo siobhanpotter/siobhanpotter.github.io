@@ -43,11 +43,12 @@ body {
 
 
   background-color: $secondary-color;
+  background: linear-gradient(to bottom right, $secondary-color, #0C0C0C);
   font-family: 'Lato', sans-serif;
   font-weight: $secondary-color;
   .title {
     font-family: 'Roboto', sans-serif;
-    font-wieght: black;
+    font-weight: thin;
     padding-top: 0.7%;
     .logo-outline {
       height: 150px;
@@ -63,6 +64,7 @@ body {
   .intro {
     text-align: center;
     font-size: 50px;
+    font-weight: thin;
     padding: 10% 15%;
     font-family: 'Lato', sans-serif;
     span {
@@ -157,6 +159,21 @@ h1 {
     margin: 5px;
   }
 }
+
+// .grow {
+//   height: 49px;
+//   width: 100%;
+//   float: left;
+//   position: relative;
+//   transition: height 0.5s;
+//   -webkit-transition: height 0.5s;
+//   text-align: center;
+//   overflow: hidden;
+// }
+//
+// .grow:hover {
+//   height: 100%;
+// }
 
 
 
