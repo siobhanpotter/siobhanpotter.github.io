@@ -20,8 +20,9 @@ const Interests = () => {
               <div className="row">
 
                 <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
-                  <div className="interests">
+                  <div className="interests-item interests ">
                   <img className="card-img-top image" src={coding} alt="Card image cap"></img>
+                  <div class="item-overlay top"></div>
                   </div>
                 </div>
 
