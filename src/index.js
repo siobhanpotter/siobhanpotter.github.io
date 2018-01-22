@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
+import Interests from './components/Interests';
 
 import './scss/style.scss';
 
@@ -39,6 +40,7 @@ class App extends React.Component {
               <About />
               <Projects />
               <Skills />
+              <Interests />
             </div>
             <Contact />
           </main>
