@@ -16,17 +16,17 @@ $secondary-color: #262627;
 body {
   padding-top: 10px;
   background-color: #FCFCFC;
-  background-color: $secondary-color;
+  // background-color: $secondary-color;
   background-color: white;
   font-family: 'Lato', sans-serif;
   color: $secondary-color;
 }
 
-body  {
-    background-image: url("../assets/music-box.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+// body  {
+//     background-image: url("../assets/music-box.png");
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+// }
 
 .header {
   text-align: center;
@@ -49,7 +49,9 @@ body  {
 
 
   background-color: $secondary-color;
-  background: linear-gradient(to bottom right, $secondary-color, #0C0C0C);
+  background: linear-gradient(to bottom right, #2C2C2C, #0C0C0C);
+  background: linear-gradient(to bottom right, #45BEAE, $primary-color);
+  // background-color: white;
   font-family: 'Lato', sans-serif;
   font-weight: $secondary-color;
 
@@ -60,14 +62,12 @@ body  {
     font-family: 'Roboto', sans-serif;
     font-weight: thin;
     padding-top: 0.7%;
-    .logo-outline {
-      height: 150px;
-      width: 150px;
-      float: left;
-      clear: both;
-    }
+    color: white;
+
     h6 {
       color: grey;
+      color: #398A8D;
+      color: #E0F4E9;
       font-size: 15px;
     }
   }
@@ -79,9 +79,23 @@ body  {
     font-family: 'Lato', sans-serif;
     span {
       color: $primary-color;
+      color: $secondary-color;
     }
   }
 }
+
+.logo-outline {
+  height: 400px;
+  width: 400px;
+  margin-top: 40px;
+}
+
+// .logo-container {
+//   width: 300px;
+//   margin: 0 auto;
+// }
+
+
 
 
 .skills {
@@ -322,22 +336,35 @@ h1 {
   padding: 0px;
 }
 
-
-//Intro Text Pulse
-.element {
-  animation: pulse 5s;
-  margin: 0;
+.element{
+  color: white;
 }
 
-@keyframes pulse {
-  0% {
-    color: $secondary-color;
-  }
-  100% {
-    color: white;
-  }
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
 }
 
-#main {
-  background-color: #F5F5F5;
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.no-padding {
+  padding: 0px;
 }
