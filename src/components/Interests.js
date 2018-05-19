@@ -19,42 +19,43 @@ const Interests = () => {
             <h1 id="interests-title">Interests</h1>
             <div className="row">
 
-              <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
+              <div className="col-lg-4 col-md-12 col-sm-12 padding-0">
                 <div className="interests-item interests ">
                   <img className="card-img-top image" src={coding} alt="Card image cap"></img>
                   <div class="item-overlay top"></div>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
+              <div className="col-lg-4 col-md-12 col-sm-12 padding-0">
                 <div className="interests">
                   <img className="card-img-top image" src={pottery} alt="Card image cap"></img>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
+              <div className="col-lg-4 col-md-12 col-sm-12 padding-0">
                 <div className="interests">
                   <img className="card-img-top image" src={guitar} alt="Card image cap"></img>
                 </div>
               </div>
 
             </div>
+
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
+              <div className="col-lg-4 col-md-12 col-sm-12 padding-0">
                 <div className="interests">
                   <img className="card-img-top image" src={photography} alt="Card image cap">
                   </img>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
+              <div className="col-lg-4 col-md-12 col-sm-12 padding-0">
                 <div className="interests">
                   <img className="card-img-top image" src={cycling} alt="Card image cap">
                   </img>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 padding-0">
+              <div className="col-lg-4 col-md-12 col-sm-12 padding-0">
                 <div className="interests">
                   <img className="card-img-top image" src={architecture} alt="Card image cap">
                   </img>

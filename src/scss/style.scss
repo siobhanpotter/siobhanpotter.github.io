@@ -8,6 +8,7 @@ $primary-color: #54BFAF;
 $primary-color: #58C6AA;
 $primary-color: #58CCCB;
 $primary-color: #67F1D7;
+$primary-color: black;
 
 $secondary-color: #4F4C4C;
 $secondary-color: #262627;
@@ -21,12 +22,6 @@ body {
   font-family: 'Lato', sans-serif;
   color: $secondary-color;
 }
-
-// body  {
-//     background-image: url("../assets/music-box.png");
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-// }
 
 .header {
   text-align: center;
@@ -51,13 +46,14 @@ body {
   background-color: $secondary-color;
   background: linear-gradient(to bottom right, #2C2C2C, #0C0C0C);
   background: linear-gradient(to bottom right, #45BEAE, $primary-color);
+  background: linear-gradient(to bottom right, #398A8D, $primary-color);
   // background-color: white;
   font-family: 'Lato', sans-serif;
   font-weight: $secondary-color;
 
-  // background-image: url("../assets/music-box.png");
-  // background-repeat: no-repeat;
-  // background-attachment: fixed;
+  background-image: url("../assets/music-box.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   .title {
     font-family: 'Roboto', sans-serif;
     font-weight: thin;
@@ -90,17 +86,8 @@ body {
   margin-top: 40px;
 }
 
-// .logo-container {
-//   width: 300px;
-//   margin: 0 auto;
-// }
-
-
-
-
 .skills {
   text-align: center;
-  // padding-bottom: 90px;
   .dev-skills {
     background-color: $secondary-color;
     color: $primary-color;
@@ -121,8 +108,6 @@ body {
 }
 
 .work {
-  // background-color: $primary-color;
-  // background-color: white;
   padding: 0px;
   padding-bottom: 80px;
   color: $secondary-color;
@@ -168,7 +153,6 @@ body {
   transform: scale(1.1);
 }
 
-
 //Universal SCSS
 
 
@@ -179,24 +163,6 @@ body {
 h1 {
   padding: 30px;
 }
-
-/////////////////////////////////////
-
-
-
-
-
-// .project {
-//   // background-color: white;
-//   .project-image {
-//     width: 100%;
-//     // height: 100%;
-//     display:block;
-//     margin-left: auto;
-//     margin-right: auto;
-//     // margin: 0px;
-//   }
-// }
 
 .img-container {
    position:relative;
@@ -243,18 +209,12 @@ h1 {
   opacity: 0;
   transition: .5s ease;
   background-color: white;
-  // text-align: center;
 }
 .container1:hover .overlay {
   opacity: 1;
 }
 .text {
   color: black;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-  // -ms-transform: translate(-50%, -50%);
   font-size: 20px;
   text-align: center;
   padding: 100px 40px;
@@ -262,26 +222,6 @@ h1 {
     font-size: 15px;
   }
 }
-
-
-
-// .grow {
-//   height: 49px;
-//   width: 100%;
-//   float: left;
-//   position: relative;
-//   transition: height 0.5s;
-//   -webkit-transition: height 0.5s;
-//   text-align: center;
-//   overflow: hidden;
-// }
-//
-// .grow:hover {
-//   height: 100%;
-// }
-
-
-
 
 
 .about {
@@ -310,10 +250,6 @@ h1 {
   $primary-color: #67F1D7;
 }
 
-//animation
-
-////////////////////////////////////
-//Project Image Zoom
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
