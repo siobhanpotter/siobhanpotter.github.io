@@ -8,7 +8,6 @@ $primary-color: #54BFAF;
 $primary-color: #58C6AA;
 $primary-color: #58CCCB;
 $primary-color: #67F1D7;
-$primary-color: black;
 
 $secondary-color: #4F4C4C;
 $secondary-color: #262627;
@@ -47,11 +46,9 @@ body {
   background: linear-gradient(to bottom right, #2C2C2C, #0C0C0C);
   background: linear-gradient(to bottom right, #45BEAE, $primary-color);
   background: linear-gradient(to bottom right, #398A8D, $primary-color);
-  // background-color: white;
   font-family: 'Lato', sans-serif;
   font-weight: $secondary-color;
-
-  background-image: url("../assets/music-box.png");
+  // background-image: url("../assets/music-box.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   .title {
